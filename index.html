@@ -1,222 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Stock Market Learning Community</title>  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">  <style>  
+  
+*{  
+    margin:0;  
+    padding:0;  
+    box-sizing:border-box;  
+    font-family:'Poppins', sans-serif;  
+}  
+  
+body{  
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);  
+    display:flex;  
+    justify-content:center;  
+    align-items:center;  
+    height:100vh;  
+}  
+  
+.container{  
+    width:90%;  
+    max-width:380px;  
+    background:rgba(255,255,255,0.05);  
+    backdrop-filter:blur(15px);  
+    border-radius:20px;  
+    padding:25px;  
+    text-align:center;  
+    color:white;  
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);  
+}  
+  
+.profile{  
+    width:80px;  
+    height:80px;  
+    border-radius:50%;  
+    border:3px solid #38bdf8;  
+    margin-bottom:15px;  
+}  
+  
+h1{  
+    font-size:22px;  
+    font-weight:700;  
+    margin-bottom:8px;  
+}  
+  
+.sub{  
+    font-size:13px;  
+    opacity:0.8;  
+    margin-bottom:15px;  
+}  
+  
+/* BUTTON */  
+a.btn{  
+    display:block;  
+    width:100%;  
+    padding:14px;  
+    margin:12px 0;  
+    border-radius:50px;  
+    font-size:16px;  
+    font-weight:600;  
+    text-decoration:none;  
+    background:linear-gradient(135deg,#38bdf8,#4ade80);  
+    color:#000;  
+    transition:0.3s;  
+}  
+  
+a.btn:hover{  
+    transform:scale(1.05);  
+    box-shadow:0 0 15px #4ade80;  
+}  
+  
+/* POINTS */  
+.points{  
+    text-align:left;  
+    margin-top:10px;  
+    font-size:14px;  
+    line-height:1.8;  
+}  
+  
+.points span{  
+    display:block;  
+}  
+  
+/* FOOTER */  
+.footer{  
+    margin-top:15px;  
+    font-size:11px;  
+    opacity:0.7;  
+    line-height:1.5;  
+}  
+  
+/* ADS */  
+.ads{  
+    margin-top:15px;  
+    font-size:12px;  
+    padding:8px;  
+    border-radius:10px;  
+    background:linear-gradient(135deg,#4f46e5,#9333ea,#ec4899);  
+    box-shadow:0 0 10px rgba(236,72,153,0.5);  
+    animation: glow 2s infinite alternate;  
+}  
+  
+.ads a{  
+    color:#6cb6ff;  
+    text-decoration:none;  
+    font-weight:700;  
+}  
+  
+/* ANIMATION */  
+@keyframes glow {  
+    from { box-shadow:0 0 8px #9333ea; }  
+    to   { box-shadow:0 0 14px #ec4899; }  
+}  
+  
+</style>  </head>  
+<body>  <div class="container">  <img src="https://i.ibb.co/39kN2P7K/In-Shot-20260616-121107232.jpg" class="profile">  
 
-<title>Trade With Munaaf</title>
+<h1>VIKAL TRADERS</h1>  
+<div class="sub">Learn • Practice • Improve Trading Skills</div>  
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- BUTTON -->  
+<a href="https://t.me/+yGKDVJ2SjFFmOGQ9" class="btn">  
+    JOIN FREE LARNING COMMUNITY  
+</a>  
 
-<style>
+<div class="points">  
+    <span>📊 NIFTY • BANKNIFTY • SENSEX Basics</span>  
+    <span>📘 Educational Content & Trading Concepts</span>  
+    <span>⚠️ Risk Management & Awareness</span>  
+    <span>📢 Market Updates & Insights</span>  
+</div>  
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+<!-- BUTTON 2 -->  
+<a href="https://t.me/+yGKDVJ2SjFFmOGQ9" class="btn">  
+      JOIN FREE LARNING COMMUNITY  
+</a>  
 
-body{
-background:#0f172a;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-color:#fff;
-}
+<div class="footer">  
+    Disclaimer: This content is for educational purposes only.   
+    We do not provide investment advice or stock recommendations.   
+    We are not SEBI registered. Stock market investments are subject to market risks.  
+</div>  
 
-/* CARD */
-
-.container{
-width:95%;
-max-width:420px;
-padding:30px 25px;
-border-radius:18px;
-
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
-
-border:1px solid rgba(255,255,255,0.08);
-
-box-shadow:0 20px 60px rgba(0,0,0,0.6);
-text-align:center;
-}
-
-/* LOGO */
-
-.logo{
-width:80px;
-height:80px;
-border-radius:50%;
-border:2px solid #FFD700;
-margin-bottom:12px;
-}
-
-/* TEXT */
-
-h1{
-font-size:22px;
-color:#FFD700;
-margin-bottom:6px;
-}
-
-h2{
-font-size:15px;
-opacity:0.9;
-margin-bottom:10px;
-}
-
-.sub{
-font-size:13px;
-opacity:0.7;
-margin-bottom:18px;
-}
-
-/* BUTTON */
-
-.btn{
-display:block;
-text-decoration:none;
-background:#22c55e;
-color:#000;
-font-weight:700;
-padding:16px;
-border-radius:10px;
-margin:12px 0;
-transition:0.3s;
-}
-
-.btn:hover{
-background:#16a34a;
-transform:scale(1.03);
-}
-
-/* TRUST BOX */
-
-.trust{
-background:rgba(0,255,150,0.08);
-padding:10px;
-border-radius:10px;
-font-size:13px;
-margin-bottom:15px;
-border:1px solid rgba(0,255,150,0.2);
-}
-
-/* LIST */
-
-.points{
-list-style:none;
-font-size:14px;
-text-align:left;
-margin:15px 0;
-}
-
-.points li{
-margin:8px 0;
-}
-
-/* URGENCY */
-
-.timer{
-margin-top:10px;
-font-size:13px;
-color:#facc15;
-}
-
-/* SOCIAL PROOF */
-
-.proof{
-margin-top:12px;
-font-size:12px;
-opacity:0.7;
-}
-
-/* FOOTER BRAND */
-
-.footer{
-margin-top:20px;
-font-size:12px;
-opacity:0.6;
-}
-
-.footer a{
-color:#38bdf8;
-text-decoration:none;
-font-weight:600;
-}
-
-.footer a:hover{
-text-decoration:underline;
-}
-
-/* RISK */
-
-.risk{
-margin-top:10px;
-font-size:11px;
-opacity:0.5;
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-<img src="https://i.ibb.co/XP3kvGh/gw-Wdz-J5-L7-R64-Xz-Sm-SRd-LQH1in-GIlyb-Y0-DMal-Vyj-Sh-Pc-NIy-DDX-Mr-B5h-Q5l-ZQBLQZI3-z-SK47-I1-Ww-B-Bpse.jpg" class="logo">
-
-<h1>WIZARD TRADER</h1>
-<h2>NIFTY • BANKNIFTY • OPTIONS</h2>
-
-<p class="sub">
-Daily Intraday Trading Signals & Analysis
-</p>
-
-<!-- TOP BUTTON -->
-<a href="https://t.me/+tfH-Sgz9H2kwNWZl" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="trust">
-✔ Trusted by 5,000+ Traders <br>
-✔ Daily Consistent Setups
+<!-- ADS -->  
+<div class="ads">  
+    🔥 Powered by   
+    <a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank">ADSBUILD AGENCY</a>  
 </div>
 
-<ul class="points">
-<li>✔ 5–7 High Probability Trades</li>
-<li>✔ Exact Entry, SL & Target</li>
-<li>✔ Beginner Friendly Guidance</li>
-<li>✔ Live Market Updates</li>
-</ul>
-
-<!-- BOTTOM BUTTON -->
-<a href="https://t.me/+tfH-Sgz9H2kwNWZl" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="timer">
-⏳ Free Access Closing Soon
-</div>
-
-<div class="proof">
-📈 Limited Seats • Active Community
-</div>
-
-<p class="risk">
-⚠ Market investments are subject to risk
-</p>
-
-<!-- CLEAN FOOTER -->
-<div class="footer">
-Powered by 
-<a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank">
-AdsBuild Agency
-</a>
-</div>
-
-</div>
-
-</body>
+ </body>  
 </html>
